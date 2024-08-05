@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="wiki.html">Wiki</a></li>
+            <li><a href="privacy.html">Gizlilik Politikası</a></li>
+            <li><a href="terms.html">Hizmet Şartları</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Gizlilik Politikası</h1>
+        <p>Bu gizlilik politikası, web sitemizi kullandığınızda sizinle ilgili topladığımız, kullandığımız ve paylaştığımız bilgileri açıklar.</p>
+        
+        <h2>Topladığımız Bilgiler</h2>
+        <p>Web sitemizi ziyaret ettiğinizde ve kullandığınızda, aşağıdaki türde bilgileri toplayabiliriz:</p>
+        <ul>
+            <li>Kişisel bilgiler (ad, e-posta adresi vb.)</li>
+            <li>Kullanım bilgileri (IP adresi, tarayıcı türü, ziyaret ettiğiniz sayfalar vb.)</li>
+        </ul>
+
+        <h2>Bilgilerin Kullanımı</h2>
+        <p>Topladığımız bilgileri aşağıdaki amaçlarla kullanabiliriz:</p>
+        <ul>
+            <li>Hizmetlerimizi sağlamak ve geliştirmek</li>
+            <li>Müşteri desteği sağlamak</li>
+            <li>Yasal yükümlülükleri yerine getirmek</li>
+        </ul>
+
+        <h2>Bilgilerin Paylaşımı</h2>
+        <p>Bilgilerinizi aşağıdaki durumlarda üçüncü taraflarla paylaşabiliriz:</p>
+        <ul>
+            <li>Yasal gereklilikler</li>
+            <li>Hizmet sağlayıcılarıyla paylaşım</li>
+            <li>İş transferleri</li>
+        </ul>
+
+        <h2>Güvenlik</h2>
+        <p>Kişisel bilgilerinizin güvenliğini sağlamak için makul önlemler alıyoruz. Ancak, internet üzerinden yapılan hiçbir veri iletimi veya depolama yöntemi tamamen güvenli değildir.</p>
+
+        <h2>Çocukların Gizliliği</h2>
+        <p>Web sitemiz, 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamaz. Eğer 13 yaşın altındaysanız, lütfen bize herhangi bir kişisel bilgi göndermeyin.</p>
+
+        <h2>Gizlilik Politikasındaki Değişiklikler</h2>
+        <p>Gizlilik politikamızı zaman zaman güncelleyebiliriz. Herhangi bir değişiklik yapıldığında, yeni gizlilik politikasını web sitemizde yayımlayacağız.</p>
+
+        <h2>İletişim</h2>
+        <p>Gizlilik politikamızla ilgili herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:</p>
+        <p>Email: yakında</p>
+    </div>
+</body>
+</html>
