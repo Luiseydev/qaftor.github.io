@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qaftor | Wiki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="wiki.html">Wiki</a></li>
+            <li><a href="#">Gizlilik Politikası</a></li>
+            <li><a href="#">Hizmet Şartları</a></li>
+        </ul>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Ara..." onkeyup="searchWiki()">
+    </div>
+    <div class="wiki-content">
+        <h2>Wiki Başlığı 1</h2>
+        <p>Bu wiki içeriği 1.</p>
+        <h2>Wiki Başlığı 2</h2>
+        <p>Bu wiki içeriği 2.</p>
+        <h2>Wiki Başlığı 3</h2>
+        <p>Bu wiki içeriği 3.</p>
+    </div>
+    <script>
+        function searchWiki() {
+            var input, filter, h2, p, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toLowerCase();
+            h2 = document.getElementsByTagName('h2');
+            p = document.getElementsByTagName('p');
+            
+            for (i = 0; i < h2.length; i++) {
+                txtValue = h2[i].textContent || h2[i].innerText;
+                if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                    h2[i].style.display = "";
+                    p[i].style.display = "";
+                } else {
+                    h2[i].style.display = "none";
+                    p[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
